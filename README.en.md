@@ -1,24 +1,44 @@
 # prettier-config
 
-#### Description
+### Description
 个人自用的prettier配置
 
-#### Software Architecture
-Software architecture description
+### Software Architecture
+请在使用前确保您本地开启了prettier
 
-#### Installation
+### Installation
 
-1. xxxx
-2. xxxx
-3. xxxx
+```
+# 使用npm安装
+npm install @saqqdy/prettier-config -D
+# 使用yarn安装
+yarn add @saqqdy/prettier-config --dev
+```
 
-#### Instructions
+### Instructions
 
-1. xxxx
-2. xxxx
-3. xxxx
+#### 方法1. 修改package.json
 
-#### Contribution
+```
+# 编辑您项目package.json加上下面这一行
+{
+  ...
+  "prettier": "@saqqdy/prettier-config",
+  ...
+}
+```
+
+#### 方法2. 创建/修改本地.prettierrc.js文件
+
+```
+# 编辑.prettierrc.js
+module.exports = {
+  ...require("@company/prettier-config"),
+  semi: false
+}
+```
+
+### Contribution
 
 1. Fork the repository
 2. Create Feat_xxx branch
@@ -26,11 +46,12 @@ Software architecture description
 4. Create Pull Request
 
 
-#### Gitee Feature
+### About Me
 
 1. You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2. Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3. Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4. The most valuable open source project [GVP](https://gitee.com/gvp)
-5. The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6. The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+2. My Gitee：[https://gitee.com/saqqdy](https://gitee.com/saqqdy)
+3. My Github：[https://github.com/saqqdy](https://github.com/saqqdy)
+4. My npm：[https://npmjs.com/~saqqdy](https://npmjs.com/~saqqdy)
+5. My porsonal site [http://www.saqqdy.com](http://www.saqqdy.com)
+
+
