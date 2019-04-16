@@ -3,7 +3,6 @@
   "printWidth": 1000,
   "tabWidth": 2,
   "useTabs": false,
-  "tabs": false,
   "semi": false,
   "singleQuote": true,
   "quoteProps": "as-needed",
@@ -26,7 +25,7 @@
     {
       "files": "*.js",
       "options": {
-        "semi": false
+        "parser": "flow"
       }
     }
   ]
