@@ -1,4 +1,4 @@
-# prettier-config
+# @saqqdy/prettier-config
 
 ### 介绍
 个人自用的prettier配置
@@ -33,7 +33,7 @@ yarn add @saqqdy/prettier-config --dev
 ```
 # 编辑.prettierrc.js
 module.exports = {
-  ...require("@company/prettier-config"),
+  ...require("@saqqdy/prettier-config"),
   semi: false
 }
 ```
