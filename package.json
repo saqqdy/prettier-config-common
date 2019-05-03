@@ -1,11 +1,11 @@
 {
   "name": "@saqqdy/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "个人自用的prettier配置",
   "main": "prettier.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "git add . && git commit -m '1.0.1' && git push"
+    "pub": "git add . && git commit -m $npm_package_version && git push"
   },
   "repository": {
     "type": "git",
