@@ -1,6 +1,6 @@
 {
   "name": "@saqqdy/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "个人自用的prettier配置",
   "main": "prettier.json",
   "scripts": {
