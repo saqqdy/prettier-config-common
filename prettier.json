@@ -40,6 +40,12 @@
 			}
 		},
 		{
+			"files": ["*.md"],
+			"options": {
+				"useTabs": false
+			}
+		},
+		{
 			"files": ".prettierrc",
 			"options": {
 				"parser": "json"
