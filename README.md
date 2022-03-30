@@ -21,8 +21,9 @@ yarn add @saqqdy/prettier-config --dev
 
 ### 方法 1. 修改 package.json
 
+编辑您项目package.json加上下面这一行
+
 ```json
-// 编辑您项目package.json加上下面这一行
 {
   ...
   "prettier": "@saqqdy/prettier-config",
@@ -33,7 +34,7 @@ yarn add @saqqdy/prettier-config --dev
 ### 方法 2. 创建/修改本地.prettierrc.js 文件
 
 ```js
-# 编辑.prettierrc.js
+// 编辑.prettierrc.js
 module.exports = {
   ...require("@saqqdy/prettier-config"),
   semi: false
