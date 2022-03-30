@@ -25,9 +25,7 @@ yarn add @saqqdy/prettier-config --dev
 
 ```json
 {
-  ...
   "prettier": "@saqqdy/prettier-config",
-  ...
 }
 ```
 
@@ -35,10 +33,7 @@ yarn add @saqqdy/prettier-config --dev
 
 ```js
 // 编辑.prettierrc.js
-module.exports = {
-  ...require("@saqqdy/prettier-config"),
-  semi: false
-}
+module.exports = require("@saqqdy/prettier-config")
 ```
 
 ## 参与贡献
