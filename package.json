@@ -1,21 +1,23 @@
 {
-  "name": "@saqqdy/prettier-config",
-  "version": "1.1.2",
-  "description": "个人自用的prettier配置",
-  "main": "prettier.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "git add . && git commit -m $npm_package_version && git push"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/saqqdy/prettier-config.git"
-  },
-  "keywords": [
-    "prettier-config",
-    "markdown",
-    "saqqdy"
-  ],
-  "author": "saqqdy@qq.com",
-  "license": "ISC"
+	"name": "prettier-config-common",
+	"version": "1.1.2",
+	"description": "个人自用的prettier配置",
+	"main": "prettier.json",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"pub": "git add . && git commit -m $npm_package_version && git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saqqdy/prettier-config-common.git"
+	},
+	"keywords": [
+		"prettier-config",
+		"prettier-config-common",
+		"common-config",
+		"markdown",
+		"saqqdy"
+	],
+	"author": "saqqdy@qq.com",
+	"license": "MIT"
 }

@@ -1,8 +1,8 @@
-# @saqqdy/prettier-config
+# prettier-config-common
 
 ## 介绍
 
-个人自用的 prettier 配置
+个人推荐的 prettier 配置
 
 ## 软件架构
 
@@ -12,20 +12,20 @@
 
 ```shell
 # 使用npm安装
-npm install @saqqdy/prettier-config -D
+npm install prettier-config-common -D
 # 使用yarn安装
-yarn add @saqqdy/prettier-config --dev
+yarn add prettier-config-common --dev
 ```
 
 ## 使用说明
 
 ### 方法 1. 修改 package.json
 
-编辑您项目package.json加上下面这一行
+编辑您项目 package.json 加上下面这一行
 
 ```json
 {
-  "prettier": "@saqqdy/prettier-config",
+    "prettier": "prettier-config-common"
 }
 ```
 
@@ -33,7 +33,7 @@ yarn add @saqqdy/prettier-config --dev
 
 ```js
 // 编辑.prettierrc.js
-module.exports = require("@saqqdy/prettier-config")
+module.exports = require('prettier-config-common')
 ```
 
 ## 参与贡献
