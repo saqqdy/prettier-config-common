@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json.schemastore.org/prettierrc",
-	"printWidth": 240,
+	"printWidth": 80,
 	"tabWidth": 4,
 	"useTabs": true,
 	"semi": false,
@@ -9,7 +9,7 @@
 	"jsxSingleQuote": false,
 	"trailingComma": "none",
 	"bracketSpacing": true,
-	"jsxBracketSameLine": false,
+	"bracketSameLine": false,
 	"arrowParens": "avoid",
 	"rangeStart": 0,
 	"rangeEnd": null,
@@ -28,6 +28,33 @@
 			"files": "*.test.js",
 			"options": {
 				"semi": false
+			}
+		},
+		{
+			"files": ["*.json5"],
+			"options": {
+				"singleQuote": false,
+				"quoteProps": "preserve"
+			}
+		},
+		{
+			"files": ["*.yml"],
+			"options": {
+				"singleQuote": false,
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		},
+		{
+			"files": ["*.md"],
+			"options": {
+				"useTabs": false
+			}
+		},
+		{
+			"files": ".prettierrc",
+			"options": {
+				"parser": "json"
 			}
 		}
 	]

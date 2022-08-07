@@ -36,7 +36,9 @@
 		{
 			"files": ["*.yml"],
 			"options": {
-				"singleQuote": false
+				"singleQuote": false,
+				"useTabs": false,
+				"tabWidth": 2
 			}
 		},
 		{

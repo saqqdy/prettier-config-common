@@ -11,10 +11,14 @@
 ## Installation
 
 ```shell
-# 使用npm安装
-npm install prettier-config-common -D
-# 使用yarn安装
+# use pnpm
+pnpm install -D prettier-config-common
+
+# use yarn
 yarn add prettier-config-common --dev
+
+# use npm
+npm install prettier-config-common -D
 ```
 
 ## Instructions
