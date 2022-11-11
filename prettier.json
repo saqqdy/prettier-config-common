@@ -36,7 +36,7 @@
 		{
 			"files": ["*.yml"],
 			"options": {
-				"singleQuote": false,
+				"singleQuote": true,
 				"useTabs": false,
 				"tabWidth": 2
 			}
@@ -44,7 +44,8 @@
 		{
 			"files": ["*.md"],
 			"options": {
-				"useTabs": false
+				"useTabs": false,
+				"tabWidth": 2
 			}
 		},
 		{
