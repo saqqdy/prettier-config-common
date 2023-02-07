@@ -1,12 +1,18 @@
+<div style="text-align: center;" align="center">
+
 # prettier-config-common
 
-## 介绍
+适合中国人使用习惯的 prettier 配置
 
-个人推荐的 prettier 配置
+[![NPM version][npm-image]][npm-url]
+[![Codacy Badge][codacy-image]][codacy-url]
+[![License][license-image]][license-url]
 
-## 软件架构
+[![Sonar][sonar-image]][sonar-url]
 
-请在使用前确保您本地开启了 prettier
+</div>
+
+> 请在使用前确保您本地安装了 prettier
 
 ## 安装教程
 
@@ -29,7 +35,7 @@ npm install prettier-config-common -D
 
 ```json
 {
-    "prettier": "prettier-config-common"
+  "prettier": "prettier-config-common"
 }
 ```
 
@@ -54,3 +60,16 @@ module.exports = require('prettier-config-common')
 3. 我的 Github：[https://github.com/saqqdy](https://github.com/saqqdy)
 4. 我的 npm：[https://npmjs.com/~saqqdy](https://npmjs.com/~saqqdy)
 5. 我的个人网站 [http://www.saqqdy.com](http://www.saqqdy.com)
+
+## License
+
+[MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/prettier-config-common.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/prettier-config-common
+[codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696
+[codacy-url]: https://www.codacy.com/gh/saqqdy/prettier-config-common/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/prettier-config-common&utm_campaign=Badge_Grade
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
+[sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_eslint-sets
+[sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_eslint-sets

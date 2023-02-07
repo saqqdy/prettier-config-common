@@ -38,7 +38,15 @@
 			}
 		},
 		{
-			"files": ["*.yml"],
+			"files": ["*.yml", "*.yaml"],
+			"options": {
+				"singleQuote": true,
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		},
+		{
+			"files": ["*.toml"],
 			"options": {
 				"singleQuote": true,
 				"useTabs": false,
