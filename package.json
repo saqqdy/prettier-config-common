@@ -1,11 +1,11 @@
 {
 	"name": "prettier-config-common",
-	"version": "1.4.0",
-	"description": "适合中国人使用习惯的prettier配置",
+	"version": "1.5.0",
+	"description": "适合中国人使用习惯的 prettier 配置",
 	"main": "prettier.json",
 	"files": [
-		"prettier.all.json",
 		"prettier.json",
+		"prettier.all.json",
 		"typings"
 	],
 	"scripts": {
@@ -17,12 +17,31 @@
 		"url": "https://github.com/saqqdy/prettier-config-common.git"
 	},
 	"keywords": [
+		"prettier",
 		"prettier-config",
 		"prettier-config-common",
 		"common-config",
-		"markdown",
-		"saqqdy"
+		"format",
+		"formatter",
+		"code-style",
+		"lint",
+		"chinese"
 	],
-	"author": "saqqdy@qq.com",
-	"license": "MIT"
+	"author": "saqqdy <https://github.com/saqqdy>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/saqqdy/prettier-config-common/issues"
+	},
+	"homepage": "https://github.com/saqqdy/prettier-config-common#readme",
+	"exports": {
+		".": "./prettier.json",
+		"./all": "./prettier.all.json",
+		"./prettier.all.json": "./prettier.all.json"
+	},
+	"peerDependencies": {
+		"prettier": ">=2.0.0"
+	},
+	"engines": {
+		"node": ">=12.17.0"
+	}
 }

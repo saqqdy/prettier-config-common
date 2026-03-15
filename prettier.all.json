@@ -7,7 +7,7 @@
 	"singleQuote": true,
 	"quoteProps": "as-needed",
 	"jsxSingleQuote": false,
-	"trailingComma": "none",
+	"trailingComma": "es5",
 	"bracketSpacing": true,
 	"bracketSameLine": false,
 	"arrowParens": "avoid",
@@ -25,12 +25,6 @@
 	"cursorOffset": -1,
 	"overrides": [
 		{
-			"files": "*.test.js",
-			"options": {
-				"semi": false
-			}
-		},
-		{
 			"files": ["*.json5"],
 			"options": {
 				"singleQuote": false,
@@ -38,18 +32,10 @@
 			}
 		},
 		{
-			"files": ["*.yml", "*.yaml"],
+			"files": ["*.yml", "*.yaml", "*.toml", "*.md"],
 			"options": {
-				"singleQuote": true,
 				"useTabs": false,
-				"tabWidth": 2
-			}
-		},
-		{
-			"files": ["*.toml"],
-			"options": {
-				"singleQuote": true,
-				"useTabs": false,
+				"singleQuote": false,
 				"tabWidth": 2
 			}
 		},
@@ -57,6 +43,7 @@
 			"files": ["*.md"],
 			"options": {
 				"useTabs": false,
+				"singleQuote": true,
 				"tabWidth": 2
 			}
 		},
